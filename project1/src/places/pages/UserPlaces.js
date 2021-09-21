@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom'
 
 import PlaceList from '../components/PlaceList'
 
+
+
 const DUMMY_PLACES = [
     {
         id: 'p1',
@@ -27,7 +29,7 @@ const DUMMY_PLACES = [
             lng: 55.2721877
         },
         creator: 'u2'
-    }
+    } 
 ]
 
 const UserPlaces = () => {
